@@ -26,13 +26,14 @@ body{
     flex-direction: column; 
 }
 .formulario h2{
-    font-size: 41px;
+    font-size: 45px;
     color: #F7B32B ;
-    margin-bottom: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
 }   
 .formulario p {
     margin-bottom: 20px;
-    color: #12100E ;
+    color: #F7B32B ;
 }
 
 .formulario label {
