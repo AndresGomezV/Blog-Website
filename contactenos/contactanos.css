@@ -27,7 +27,7 @@ body{
 }
 .formulario h2{
     font-size: 45px;
-    color: #F7B32B ;
+    color: #7A7D7D  ;
     font-weight: 600;
     margin-bottom: 25px;
 }   
@@ -35,58 +35,45 @@ body{
     margin-bottom: 20px;
     color: #F7B32B ;
 }
-
-.formulario label {
-    margin-bottom: 5px;
-    color: #12100E ;
+label {
+    font-size: 15px;
+    color:#F7B32B ;
+    margin-bottom: 15px;
 }
 
 .box {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.boton {
-    padding: 10px;
-    background-color: #F7B32B;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.boton:hover {
-    background-color: #e69e00;
-}
-
-.informacion {
-    width: 50%;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 15px;
     background-color: #fffbfe;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    outline: none;
 }
 
-.informacion img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+.submit{
+    background-color: #FFFBFE ;
+    padding:15px;
+    color: #FFFBFE;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 250px;
+    box-shadow: 0 0 20px rgba(201,199,253,0.5);
 }
 
-.informacion p {
-    margin-bottom: 20px;
-    color: #333;
+.informacion{
+    width:350px;
+    margin-bottom: 75px;
+}
+.location{
+    display: flex;
+    margin-bottom: 60px;
+    flex-direction: column;
 }
 
-.ubicacion, .telefono, .correo, .redes {
-    margin-bottom: 10px;
+.icons{
+    display: flex;
+    margin-bottom: 31px;
 }
-
-.ubicacion img, .telefono img, .correo img, .redes img {
-    width: 20px;
-    margin-right: 10px;
-}
-
