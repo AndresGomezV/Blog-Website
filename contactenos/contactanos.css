@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,367;1,367&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+
+body{
+    background-color: #FFFBFE;
+}
+.container{
+    width: 1000px;
+    height: 750px;
+    display: flex; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-top: 150px auto;
+    background-color: #fffbfe;
+    border-radius: 25px;
+}
+.formulario{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; 
+}
+.formulario h2{
+    font-size: 45px;
+    color: #F7B32B ;
+    font-weight: 600;
+    margin-bottom: 25px;
+}   
+.formulario p {
+    margin-bottom: 20px;
+    color: #F7B32B ;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    color: #12100E ;
+}
+
+.box {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton {
+    padding: 10px;
+    background-color: #F7B32B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #e69e00;
+}
+
+.informacion {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fffbfe;
+}
+
+.informacion img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.informacion p {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.ubicacion, .telefono, .correo, .redes {
+    margin-bottom: 10px;
+}
+
+.ubicacion img, .telefono img, .correo img, .redes img {
+    width: 20px;
+    margin-right: 10px;
+}
+
