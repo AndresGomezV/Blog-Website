@@ -62,3 +62,18 @@ label {
     width: 250px;
     box-shadow: 0 0 20px rgba(201,199,253,0.5);
 }
+
+.informacion{
+    width:350px;
+    margin-bottom: 75px;
+}
+.location{
+    display: flex;
+    margin-bottom: 60px;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    margin-bottom: 31px;
+}
