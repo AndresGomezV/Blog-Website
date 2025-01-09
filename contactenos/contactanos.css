@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,367;1,367&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+
+body{
+    background-color: #FFFBFE;
+}
+.container{
+    width: 1000px;
+    height: 750px;
+    display: flex; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-top: 150px auto;
+    background-color: #fffbfe;
+    border-radius: 25px;
+}
+.formulario{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; 
+}
+.formulario h2{
+    font-size: 45px;
+    color: #7A7D7D  ;
+    font-weight: 600;
+    margin-bottom: 25px;
+}   
+.formulario p {
+    margin-bottom: 20px;
+    color: #F7B32B ;
+}
+label {
+    font-size: 15px;
+    color:#F7B32B ;
+    margin-bottom: 15px;
+}
+
+.box {
+    padding: 15px;
+    background-color: #fffbfe;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    outline: none;
+}
+
+.submit{
+    background-color: #FFFBFE ;
+    padding:15px;
+    color: #7A7D7D;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 250px;
+    box-shadow: 0 0 20px rgba(201,199,253,0.5);
+}
+
+.informacion{
+    width:350px;
+    margin-bottom: 75px;
+}
+.location{
+    display: flex;
+    margin-bottom: 60px;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    margin-bottom: 31px;
+}
+.icons img{
+    width: 20px;
+    margin-right: 10px;
+}
+.icons p{
+    color: #F7B32B ;
+    font-size: 14px;
+}
+.redes{
+    display: flex;
+}
+.redes{
+    width: 50px;
+    margin-right: 30px;
+}
