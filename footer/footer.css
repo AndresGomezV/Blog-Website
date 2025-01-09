@@ -1,9 +1,8 @@
 footer ul li a:hover {
     color: #007bff !important;
-    /* Azul de Bootstrap */
-}
 
-footer i:hover {
-    color: #df2935;
-    /* Color rojo para íconos al pasar el mouse */
-}
+
+    footer i:hover {
+        color: #df2935;
+
+    }
