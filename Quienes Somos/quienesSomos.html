@@ -4,71 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiénes Somos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="quienesSomos.css" type="text/css" />
   </head>
   <body>
     <main>
-      <!-- Introducción -->    
-      <section id="historia">
-        <h2>Nuestra historia</h2>
-        <p>
-          Generation Fitness nació con la misión de inspirar a las personas a
-          adoptar un estilo de vida activo y saludable. Somos un equipo
-          apasionado por el fitness y la nutrición, comprometidos con
-          transformar la vida de quienes buscan bienestar físico y mental. Desde
-          nuestros inicios, hemos trabajado en construir una comunidad que se
-          apoya mutuamente para alcanzar metas y superar límites.
-        </p>
+      <!-- Introducción -->
+      <section id="historia" class="container my-5">
+        <div class="row">
+          
+          <div >
+            <header class="mb-4">
+              <h2 class="text-center">Nuestra Historia</h2>
+            </header>
+            <p class="text-justify">
+              Generation Fitness nació con la misión de inspirar a las personas
+              a adoptar un estilo de vida activo y saludable. Somos un equipo
+              apasionado por el fitness y la nutrición, comprometidos con
+              transformar la vida de quienes buscan bienestar físico y mental.
+              Desde nuestros inicios, hemos trabajado en construir una comunidad
+              que se apoya mutuamente para alcanzar metas y superar límites.
+            </p>
+            
+          </div>
+        </div>
       </section>
 
       <!-- Misión, Visión, Valores -->
-      <section id="mision-vision-valores">
-        <article id="mision">
-          <h3>Misión</h3>
-          <p>
-            Proveer servicios, productos y conocimientos que empoderen a las
-            personas para alcanzar su máximo potencial físico y mental,
-            promoviendo un equilibrio entre cuerpo y mente.
-          </p>
-        </article>
-        <article id="vision">
-          <h3>Visión</h3>
-          <p>
-            Convertirnos en un referente global en el mundo del fitness y la
-            nutrición, inspirando a las generaciones futuras a vivir de manera
-            saludable y activa.
-          </p>
-        </article>
-        <article id="valores">
-          <h3>Valores</h3>
-          <ul>
-            <li>
-              Compromiso: Estamos dedicados a guiar y apoyar a nuestros clientes
-              en su viaje hacia un mejor bienestar.
-            </li>
-            <li>
-              Innovación: Buscamos constantemente formas creativas y efectivas
-              de mejorar la experiencia fitness y nutricional.
-            </li>
-            <li>
-              Trabajo en equipo: Creemos que juntos podemos lograr grandes
-              cosas, tanto como equipo interno como con nuestra comunidad.
-            </li>
-            <li>
-              Inclusividad: Nos esforzamos por crear un espacio accesible y
-              acogedor para todos.
-            </li>
-            <li>
-              Pasión: Amamos lo que hacemos y transmitimos esta energía a
-              quienes nos rodean.
-            </li>
-          </ul>
-        </article>
-      </section>
+      <article id="mision-vision-valores" class="container my-5">
+        <div class="row">
+          <!-- Columna vacía izquierda -->
+          <div class="col-2">Espacio publicitario</div>
+
+          <!-- Contenido central -->
+          <div class="col-8">
+            <div class="row">
+              <section id="mision" class="col-md-4 mb-4">
+                <header>
+                  <h3>Misión</h3>
+                </header>
+                <p>
+                  Proveer servicios, productos y conocimientos que empoderen a
+                  las personas para alcanzar su máximo potencial físico y
+                  mental, promoviendo un equilibrio entre cuerpo y mente.
+                </p>
+              </section>
+              <section id="vision" class="col-md-4 mb-4">
+                <header>
+                  <h3>Visión</h3>
+                </header>
+                <p>
+                  Convertirnos en un referente global en el mundo del fitness y
+                  la nutrición, inspirando a las generaciones futuras a vivir de
+                  manera saludable y activa.
+                </p>
+              </section>
+              <section id="valores" class="col-md-4 mb-4">
+                <header>
+                  <h3>Valores</h3>
+                </header>
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Compromiso:</strong> Estamos dedicados a guiar y apoyar a nuestros
+                    clientes en su viaje hacia un mejor bienestar.
+                  </li>              
+                  <br>
+                  <li>
+                    <strong>Inclusividad:</strong> Nos esforzamos por crear un espacio accesible
+                    y acogedor para todos.
+                  </li>
+                  <br>
+                  <li>
+                    <strong>Pasión:</strong> Amamos lo que hacemos y transmitimos esta energía a
+                    quienes nos rodean.
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </div>
+          <!-- Columna vacía derecha -->
+          <div class="col-2">Espacio publicitario</div>
+        </div>
+      </article>
 
       <!-- Equipo -->
-      <section id="equipo">
-        <h2>Conoce al Equipo</h2>
+      <article id="equipo" class="container my-5">
+        <div class="row">
+        <header class="mb-4">
+          <h2 class="text-center">Conoce al Equipo</h2>
+        </header>
         <p>
           En Generation Fitness, creemos que el éxito se construye con pasión,
           dedicación y trabajo en equipo. Nuestro equipo está compuesto por
@@ -77,51 +106,80 @@
           aporta un conjunto único de habilidades para ofrecer soluciones
           integrales a nuestra comunidad.
         </p>
-        <article id="gisell-trejos">
-          <img src="imgs/gisell.jpg" alt="" />
-          <h4>Gisell</h4>
-          <p>
-            Fundador y CEO: Lidera Generation Fitness con una visión clara:
-            crear una comunidad que inspire a las personas a transformar sus
-            vidas."
-          </p>
-        </article>
-        <article id="katherinne-cardenas">
-          <img src="imgs/katherine.jpg" alt="" />
-          <h4>Katherinne</h4>
-          <p>
-            Especialista en Nutrición: Nutricionista certificada con más de 5
-            años de experiencia, dedicada a diseñar planes alimenticios
-            personalizados para cada necesidad.
-          </p>
-        </article>
-        <article id="andres-gomez">
-            <img src="imgs/andres.jpg" alt="Imagen de Andrés" />
-          <h4>Andrés</h4>
-          <p>
-            Entrenador Personal: Apasionado del entrenamiento funcional, motiva
-            a cada cliente a superar sus límites y alcanzar sus metas físicas.
-          </p>
-        </article>
-        <article id="oscar-t">
-          <img src="imgs/oscar.jpg" alt="" />
-          <h4>Oscar</h4>
-          <p>
-            Especialista en Bienestar Mental: Combina técnicas de mindfulness y
-            fitness para ayudar a las personas a equilibrar su salud física y
-            mental.
-          </p>
-        </article>
-        <article id="diego">
-          <img src="imgs/diego.jpg" alt="" />
-          <h4>Diego</h4>
-          <p>
-            Desarrollador Web y Estratega Digital:"Encargado de diseñar y
-            mantener la experiencia digital de Generation Fitness, conectando a
-            nuestra comunidad a través de la tecnología.
-          </p>
-        </article>
-      </section>
+        <div class="row">
+          <section id="gisell-trejos" class="col-md-6 col-lg-4 mb-4">
+            <img
+              src="imgs/gisell.jpg"
+              alt=""
+              class="img-fluid rounded-circle mb-2"
+            />
+            <h4>Gisell</h4>
+            <p>
+              Fundador y CEO: Lidera Generation Fitness con una visión clara:
+              crear una comunidad que inspire a las personas a transformar sus
+              vidas."
+            </p>
+          </section>
+          <section id="katherinne-cardenas" class="col-md-6 col-lg-4 mb-4">
+            <img
+              src="imgs/katherine.jpg"
+              alt=""
+              class="img-fluid rounded-circle mb-2"
+            />
+            <h4>Katherinne</h4>
+            <p>
+              Especialista en Nutrición: Nutricionista certificada con más de 5
+              años de experiencia, dedicada a diseñar planes alimenticios
+              personalizados para cada necesidad.
+            </p>
+          </section>
+          <section id="andres-gomez" class="col-md-6 col-lg-4 mb-4">
+            <img
+              src="imgs/andres.jpg"
+              alt="Imagen de Andrés"
+              class="img-fluid rounded-circle mb-2"
+            />
+            <h4>Andrés</h4>
+            <p>
+              Entrenador Personal: Apasionado del entrenamiento funcional,
+              motiva a cada cliente a superar sus límites y alcanzar sus metas
+              físicas.
+            </p>
+          </section>
+          <section id="oscar-t" class="col-md-6 col-lg-4 mb-4">
+            <img
+              src="imgs/oscar.jpg"
+              alt=""
+              class="img-fluid rounded-circle mb-2"
+            />
+            <h4>Oscar</h4>
+            <p>
+              Especialista en Bienestar Mental: Combina técnicas de mindfulness
+              y fitness para ayudar a las personas a equilibrar su salud física
+              y mental.
+            </p>
+          </section>
+          <section id="diego" class="col-md-6 col-lg-4 mb-4">
+            <img
+              src="imgs/diego.jpg"
+              alt=""
+              class="img-fluid rounded-circle mb-2"
+            />
+            <h4>Diego</h4>
+            <p>
+              Desarrollador Web y Estratega Digital:"Encargado de diseñar y
+              mantener la experiencia digital de Generation Fitness, conectando
+              a nuestra comunidad a través de la tecnología.
+            </p>
+          </section>
+        </div>
+      </div>
+      </article>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
