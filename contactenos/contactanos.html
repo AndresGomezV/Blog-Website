@@ -1,67 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Contáctenos</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7b875e4198.js" crossorigin="anonymous"></script>
-
+    <title>contactanos| Living Code</title>
+    <link rel="stylesheet" href="contactanos.css">
+    <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="box-info">
-                    <h1 class="mb-4">Contáctenos</h1>
-                    <div class="data">
-                        <p><i class="fas fa-phone"></i> +5712345678</p>
-                        <p><i class="fas fa-envelope"></i> generacionfit@gmail.com</p>
-                        <p><i class="fas fa-map-marker-alt"></i> av martinez # 0-3</p>
-                    </div>
-                    <div class="social mt-3">
-                        <a href="https://www.facebook.com" class="btn btn-primary mr-2" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.instagram.com" class="btn btn-danger mr-2" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.twitter.com" class="btn btn-info" target="_blank"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="box-info">
+            <h1>Contáctanos</h1>
+            <div class="data">
+                <p><i class="fa-solid fa-phone"></i> +571234567890</p>
+                <p><i class="fa-solid fa-envelope"></i> Genefit@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Bogotá, Colombia</p>
             </div>
-            <div class="col-md-6">
-                <form>
-                    <div class="form-group">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" name="nombre" required placeholder="Nombre">
-                    </div>
-                    <div class="form-group">
-                        <label for="apellido">Apellido</label>
-                        <input type="text" class="form-control" id="apellido" name="apellido" required placeholder="Apellido">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail</label>
-                        <input type="email" class="form-control" id="email" name="email" required placeholder="E-mail">
-                    </div>
-                    <div class="form-group">
-                        <label for="asunto">Asunto</label>
-                        <input type="text" class="form-control" id="asunto" required placeholder="Asunto">
-                    </div>
-                    <div class="form-group">
-                        <label for="mensaje">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
-                </form>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
+        <form>
+            <div class="input-box">
+                <input type="text" placeholder="Nombre" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Apellido" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="email" required placeholder="Correo electrónico">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Descripción" required>
+                <i class="fa-solid fa-pen-to-square"></i>
+            </div>
+            <div class="input-box">
+                <textarea placeholder="Dejanos saber tu consulta..."></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
